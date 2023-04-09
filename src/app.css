@@ -1,0 +1,12 @@
+.app {
+    height: 100vh;
+    overflow: auto; 
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+}
+
+.app > * {
+    scroll-snap-align: start;
+    /* height: 100vh; */
+    display: inlinKe-block;
+}
