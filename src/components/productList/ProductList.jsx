@@ -7,6 +7,7 @@ import Kasa from '../../img/kasa.png'
 import Ohmyfood from '../../img/ohmyfood.png'
 import Booki from '../../img/Booki.png'
 import SocialMedia from '../../img/social-media-01.png'
+import Portofolio from '../../img/portofolio.png'
 
 const ProductList = () => {
   return (
@@ -33,6 +34,10 @@ const ProductList = () => {
           link='https://fitclub-i6xuyrgis-frederick486.vercel.app/'
         />
         <Product
+          img={Portofolio} 
+          link='https://portofolio-dkyp7s2zv-frederick486.vercel.app/'
+        />
+        <Product
           img={SocialMedia} 
           link='https://for-deploy-social-media-01.vercel.app/'
         />
@@ -48,10 +53,6 @@ const ProductList = () => {
           img={Booki} 
           link='https://frederick486.github.io/Booki/'
         />        
-        <Product
-          img={FitClub} 
-          link='https://fitclub-i6xuyrgis-frederick486.vercel.app/'
-        />
       </div>
     </div>
   )
