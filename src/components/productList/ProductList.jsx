@@ -13,7 +13,7 @@ const ProductList = () => {
   return (
     <div className='pl'>
       <div className="pl-texts">
-        <h1 className='pl-title'>Bienvenu sur mon portfolio</h1>
+        <h1 className='pl-title'>Bienvenue sur mon portfolio</h1>
         <p className="pl-desc">
           Vous trouverez ci-dessous quelques exemples des projets que j'ai réalisés. 
           Pour accéder au site, cliquez sur sa miniature…
