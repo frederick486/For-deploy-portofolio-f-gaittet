@@ -43,7 +43,7 @@ const ProductList = () => {
         />
         <Product
           img={Kasa} 
-          link='https://kasa-vercel.vercel.app/'
+          link='https://kasa-alpha.vercel.app/'
         />
         <Product
           img={Ohmyfood} 
